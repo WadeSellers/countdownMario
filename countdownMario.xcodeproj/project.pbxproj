@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16468E111CBF1B4E0046A4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16468E101CBF1B4E0046A4F4 /* AppDelegate.swift */; };
+		16468E131CBF1B4E0046A4F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16468E121CBF1B4E0046A4F4 /* ViewController.swift */; };
+		16468E161CBF1B4E0046A4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16468E141CBF1B4E0046A4F4 /* Main.storyboard */; };
+		16468E181CBF1B4E0046A4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16468E171CBF1B4E0046A4F4 /* Assets.xcassets */; };
+		16468E1B1CBF1B4E0046A4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16468E191CBF1B4E0046A4F4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16468E0D1CBF1B4E0046A4F4 /* countdownMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countdownMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16468E101CBF1B4E0046A4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16468E121CBF1B4E0046A4F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16468E151CBF1B4E0046A4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16468E171CBF1B4E0046A4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16468E1A1CBF1B4E0046A4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16468E1C1CBF1B4E0046A4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16468E0A1CBF1B4E0046A4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16468E041CBF1B4E0046A4F4 = {
+			isa = PBXGroup;
+			children = (
+				16468E0F1CBF1B4E0046A4F4 /* countdownMario */,
+				16468E0E1CBF1B4E0046A4F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16468E0E1CBF1B4E0046A4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16468E0D1CBF1B4E0046A4F4 /* countdownMario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16468E0F1CBF1B4E0046A4F4 /* countdownMario */ = {
+			isa = PBXGroup;
+			children = (
+				16468E101CBF1B4E0046A4F4 /* AppDelegate.swift */,
+				16468E121CBF1B4E0046A4F4 /* ViewController.swift */,
+				16468E141CBF1B4E0046A4F4 /* Main.storyboard */,
+				16468E171CBF1B4E0046A4F4 /* Assets.xcassets */,
+				16468E191CBF1B4E0046A4F4 /* LaunchScreen.storyboard */,
+				16468E1C1CBF1B4E0046A4F4 /* Info.plist */,
+			);
+			path = countdownMario;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16468E0C1CBF1B4E0046A4F4 /* countdownMario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16468E1F1CBF1B4E0046A4F4 /* Build configuration list for PBXNativeTarget "countdownMario" */;
+			buildPhases = (
+				16468E091CBF1B4E0046A4F4 /* Sources */,
+				16468E0A1CBF1B4E0046A4F4 /* Frameworks */,
+				16468E0B1CBF1B4E0046A4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = countdownMario;
+			productName = countdownMario;
+			productReference = 16468E0D1CBF1B4E0046A4F4 /* countdownMario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16468E051CBF1B4E0046A4F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wade Sellers";
+				TargetAttributes = {
+					16468E0C1CBF1B4E0046A4F4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 16468E081CBF1B4E0046A4F4 /* Build configuration list for PBXProject "countdownMario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16468E041CBF1B4E0046A4F4;
+			productRefGroup = 16468E0E1CBF1B4E0046A4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16468E0C1CBF1B4E0046A4F4 /* countdownMario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16468E0B1CBF1B4E0046A4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16468E1B1CBF1B4E0046A4F4 /* LaunchScreen.storyboard in Resources */,
+				16468E181CBF1B4E0046A4F4 /* Assets.xcassets in Resources */,
+				16468E161CBF1B4E0046A4F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16468E091CBF1B4E0046A4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16468E131CBF1B4E0046A4F4 /* ViewController.swift in Sources */,
+				16468E111CBF1B4E0046A4F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16468E141CBF1B4E0046A4F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16468E151CBF1B4E0046A4F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16468E191CBF1B4E0046A4F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16468E1A1CBF1B4E0046A4F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16468E1D1CBF1B4E0046A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16468E1E1CBF1B4E0046A4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16468E201CBF1B4E0046A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = countdownMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadesellers.countdownMario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16468E211CBF1B4E0046A4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = countdownMario/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wadesellers.countdownMario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16468E081CBF1B4E0046A4F4 /* Build configuration list for PBXProject "countdownMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16468E1D1CBF1B4E0046A4F4 /* Debug */,
+				16468E1E1CBF1B4E0046A4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16468E1F1CBF1B4E0046A4F4 /* Build configuration list for PBXNativeTarget "countdownMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16468E201CBF1B4E0046A4F4 /* Debug */,
+				16468E211CBF1B4E0046A4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16468E051CBF1B4E0046A4F4 /* Project object */;
+}
