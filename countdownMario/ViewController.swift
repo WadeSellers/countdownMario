@@ -21,7 +21,6 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
   }
 
   @IBAction func onStartButtonPressed(sender: UIButton) {
@@ -46,6 +45,10 @@ class ViewController: UIViewController {
   }
 
   func counterIsAtZero() -> Bool {
+    // Here's an example of using an ternary assigment operator 
+    /* This says... if the counter is equal to 0, return true.
+        If not, return false
+    */
     return counter == 0 ? true : false
 //    if counter == 0 {
 //      return true
@@ -71,11 +74,6 @@ class ViewController: UIViewController {
     // Play the sound!
     audioPlayer!.prepareToPlay()
     audioPlayer!.play()
-
   }
-
-
-
-
 }
 
