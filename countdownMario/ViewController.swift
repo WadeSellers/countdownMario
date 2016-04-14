@@ -56,9 +56,10 @@ class ViewController: UIViewController {
 
   // MARK: Prepare the audioplayer
   func soundTheBuzzer() {
-
+    // Set the sound file name and extension
     let marioSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("marioSound", ofType: "wav")!)
 
+    // AudioPlyer preparation
     do {
       audioPlayer = try AVAudioPlayer(contentsOfURL: marioSound)
       try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
@@ -67,6 +68,7 @@ class ViewController: UIViewController {
       print(error)
     }
 
+    // Play the sound!
     audioPlayer!.prepareToPlay()
     audioPlayer!.play()
 
